@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html lang="en">  
+  <head>  
+    <meta charset="utf-8"></meta>
+    <title>NodeJS WebSocket Mesaj Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+        <ol class="chat" id="chat">
+            
+        </ol>
+        <div class="controls">
+            <textarea placeholder="Mesajınız" onkeypress="return sendMsg(event, this)"></textarea>
+        </div>
+    </div>
+
+    <script src="websocket.js"></script>
+  </body>
+
+</html>

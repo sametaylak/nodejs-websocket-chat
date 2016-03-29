@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+html, body{
+    height: 100%;
+    overflow: hidden;
+    background: #f6f6f6
+}
+.container{
+    display: block;
+    width: 300px;
+    height: 500px;
+    margin: 30px auto;
+    border: 1px solid #000;
+    background: #FFF
+}
+.controls{
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #CCC
+}
+.controls textarea{
+    width: 300px;
+    height: 99px;
+    border: none;
+    resize: none;
+    border-bottom: 1px solid #CCC;
+    outline: none;
+    padding: 5px;
+}
+.controls button{
+    display: block;
+    padding: 7px;
+    margin: 0px auto
+}
+.chat{
+    height: 400px;
+    overflow-y: scroll
+}
+.chat li{
+    padding: 0.5rem;
+    overflow: hidden;
+    text-align: center;
+}
+.msg {
+    margin: 5px;
+    background: #BBB;
+}
